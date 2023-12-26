@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap');
+body{
+    display: flex;
+    font-family: "Poppins";
+    /* flex-wrap: wrap; */
+    padding: 0;
+    margin: 0;
+    background-color: rgb(239, 238, 238);
+}
+label{
+    display: block;
+}
+
+@font-face {
+    font-family: "Norse-Bold";
+    src: url("Norse-Bold.otf") format('opentype');
+}
+
+.left{
+    /* flex: 1; */
+    /* border: 3px red solid; */
+    height:100vh;
+    width: 35vw;
+    background : url(img/halie-west-25xggax4bSA-unsplash.jpg) no-repeat;
+    opacity: 0.85;
+    background-size: 100%;
+    color: white;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center; 
+    background-size: cover;
+}
+.logo{
+    margin-top: 250px ;
+    width: auto;
+    display: flex;
+    align-items: center;
+    /* border: 3px red solid; */
+    height: 100px;
+    font-family: 'Norse-Bold';
+    font-size: 150px;
+    
+}
+.logo img{
+    width: 200px;
+    height:  250px;
+}
+.main{
+    /* flex: 1; */
+    /* border: 3px red solid; */
+    height: 95vh;
+    width: 64v.5w;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    font-size: 24px;
+    font-weight: 550;
+    
+}
+
+.header >*{
+    margin-left: 70px;
+}
+.main > *{
+    /* border: 3px red solid; */
+    flex: 1;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+}
+
+.signup{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    box-shadow: 10px 5px 5px grey;
+    background-color: white;
+}
+.form_head{
+    padding-left: 70px;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.signup form{
+    /* border: 5px blue solid; */
+    display: flex;
+    gap: 100px;
+    margin-left: 70px;
+    flex: 1;
+    width: 80%;
+    font-size: 18px;
+    box-shadow: 10px  lightblue;
+}
+
+input:focus {
+    outline-color: rgb(84, 133, 229);
+}
+
+input{
+    height: 1.5rem;
+    width: 14rem;
+    margin-bottom: 8px;
+    border: 1px solid grey;
+    border-radius: 5px;
+}
+
+
+.submit-login{
+    flex-direction: column;
+}
+
+.submit-login > *{
+    margin-left: 70px;
+    margin-top: 30px;
+}
+a{
+    color: #596D48;
+    list-style: none;   
+}
+button{
+    width: 15rem;
+    height: 3rem;
+    border-radius: 10px;
+    background-color: #596D48;
+    color: white;
+    font-size: 18px;
+    border: none;
+}
+button:hover{
+    background-color: #739852;
+    color: black;
+}
+.error{
+    color: rgb(209, 63, 63);
+}
+
+
+
